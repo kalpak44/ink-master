@@ -1,0 +1,23 @@
+.font-marker {
+    font-family: 'Permanent Marker', cursive;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.animate-fade {
+    animation: fadeIn 0.8s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
